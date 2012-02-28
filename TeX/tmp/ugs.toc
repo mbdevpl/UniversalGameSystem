@@ -1,0 +1,35 @@
+\contentsline {section}{\numberline {1}Abstract}{2}
+\contentsline {subsection}{\numberline {1.1}License}{2}
+\contentsline {subsection}{\numberline {1.2}Responsibilities}{2}
+\contentsline {subsubsection}{\numberline {1.2.1}People}{2}
+\contentsline {paragraph}{Bysiek M.}{2}
+\contentsline {paragraph}{Peryt S.}{2}
+\contentsline {paragraph}{Wisniewski A.}{2}
+\contentsline {paragraph}{Witan M.}{2}
+\contentsline {subsubsection}{\numberline {1.2.2}Material}{2}
+\contentsline {subsection}{\numberline {1.3}Github repo}{2}
+\contentsline {section}{\numberline {2}Use-cases}{3}
+\contentsline {subsection}{\numberline {2.1}Person running a game server}{3}
+\contentsline {subsection}{\numberline {2.2}Person running a game client}{3}
+\contentsline {subsection}{\numberline {2.3}A game client accessing and using game server}{4}
+\contentsline {subsection}{\numberline {2.4}Game server communicating with game client}{4}
+\contentsline {section}{\numberline {3}Input data format}{5}
+\contentsline {section}{\numberline {4}Class diagram}{5}
+\contentsline {section}{\numberline {5}Event flow diagrams}{6}
+\contentsline {subsection}{\numberline {5.1}Game initilalization}{6}
+\contentsline {subsection}{\numberline {5.2}Game finalization}{6}
+\contentsline {subsection}{\numberline {5.3}Client-server communication}{7}
+\contentsline {subsection}{\numberline {5.4}Master-server-player interaction}{8}
+\contentsline {section}{\numberline {6}State diagrams}{8}
+\contentsline {subsection}{\numberline {6.1}cielnt-server communication}{8}
+\contentsline {subsection}{\numberline {6.2}game master}{9}
+\contentsline {subsection}{\numberline {6.3}player-game}{9}
+\contentsline {subsection}{\numberline {6.4}Server}{10}
+\contentsline {section}{\numberline {7}Activity diagrams}{10}
+\contentsline {subsection}{\numberline {7.1}Championship management}{10}
+\contentsline {subsection}{\numberline {7.2}Game creation}{11}
+\contentsline {subsection}{\numberline {7.3}Login}{12}
+\contentsline {subsection}{\numberline {7.4}Logout}{13}
+\contentsline {section}{\numberline {8}Communication protocol}{14}
+\contentsline {section}{\numberline {9}Additional comments}{14}
+\contentsline {section}{\numberline {10}Vocabulary}{14}

@@ -63,26 +63,70 @@ This document (written in LaTeX) and all diagrams (created in Visio) are availab
 in a open Github repository: \url{https://github.com/mbdevpl/UniversalGameSystem}
 
 \section{Use-cases}
-\subsection{Person running a game server}
-\subsection{Person running a game client}
 
-\includegraphics[scale=0.95]{UGS_usecases_client.jpg}
+\subsection{Person running a game server}
+
+\subsection{Person running a game client}
+\includegraphics[scale=1.00]{UGS_usecases_Client.jpg}
 
 \subsection{A game client accessing and using game server}
+
 \subsection{Game server communicating with game client}
+\includegraphics[scale=1.00]{UGS_usecases_Application.jpg}
 
 \section{Input data format}
 
-\section{Class diagrams}
+Every object that can be sent between game actors is capable of being converted into XML and back, 
+without any UGS-specific data loss.
+
+\section{Class diagram}
+\includegraphics[scale=1.50]{UGS_classes.jpg}
 
 \section{Event flow diagrams}
 Interaction between game server and game applications.
 
+\subsection{Game initilalization}
+\includegraphics[scale=1.00]{UGS_events_Game_initilalization.jpg}
+
+\subsection{Game finalization}
+\includegraphics[scale=0.70]{UGS_events_Game_finalization.jpg}
+
+\subsection{Client-server communication}
+\includegraphics[scale=1.00]{UGS_events_Client-server_communication.jpg}
+
+\subsection{Master-server-player interaction}
+\includegraphics[scale=1.00]{UGS_events_master-server-player_interaction.jpg}
+
 \section{State diagrams}
+
+\subsection{cielnt-server communication}
+\includegraphics[scale=1.00]{UGS_states_cielnt-server_communication.jpg}
+
+\subsection{game master}
+\includegraphics[scale=0.90]{UGS_states_game_master.jpg}
+
+\subsection{player-game}
+\includegraphics[scale=1.00]{UGS_states_player-game.jpg}
+
+\subsection{Server}
+\includegraphics[scale=0.80]{UGS_states_server.jpg}
 
 \section{Activity diagrams}
 
+\subsection{Championship management}
+\includegraphics[scale=0.80]{UGS_activities_champioship_management.jpg}
+
+\subsection{Game creation}
+\includegraphics[scale=1.00]{UGS_activities_game_creation.jpg}
+
+\subsection{Login}
+\includegraphics[scale=1.00]{UGS_activities_login.jpg}
+
+\subsection{Logout}
+\includegraphics[scale=0.90]{UGS_activities_logout.jpg}
+
 \section{Communication protocol}
+\includegraphics[scale=1.50]{UGS_protocol.jpg}
 
 \section{Additional comments}
 
